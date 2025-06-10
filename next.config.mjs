@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/laughforge',
+  assetPrefix: '/laughforge',
   eslint: {
     ignoreDuringBuilds: true,
   },
